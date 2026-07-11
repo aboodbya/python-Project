@@ -1,4 +1,5 @@
 # إعداد قاعدة البيانات 
+import numpy as np
 import sqlite3 as sql
 con=sql.connect("D:\الجامعه\مستوى ثالث\الترم الثاني\برمجة متقدمة\تكاليف\medical_center.db")
 cursor=con.cursor()
